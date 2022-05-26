@@ -1,0 +1,6 @@
+def si(r,p=100,t):
+  si=(p*r*t)/100
+  return si
+r1=int(input("enter rate"))
+t1=int(input("enter time"))
+print(si(r1,t1))
