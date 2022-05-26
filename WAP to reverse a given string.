@@ -1,0 +1,8 @@
+def rev(str):
+  st=''
+  i=len(str)
+  while i>0:
+    st+=str[i-1]
+    i=i-1
+  return st
+print(rev('1234abcd'))
